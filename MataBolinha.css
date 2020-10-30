@@ -1,0 +1,36 @@
+.bolinha
+{
+    height:20px;
+    width: 20px;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    position: absolute;
+}
+body
+{
+    background-color: black;
+}
+
+button
+{
+    background-color: rgba(6, 69, 94);
+    color: yellowgreen;
+    border-radius: 10px;
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;    
+}
+
+span
+{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 400px;
+}
